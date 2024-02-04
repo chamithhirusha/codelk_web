@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
+    /* General Values */
+    --main-window-scrollbar: 8px;
+
     /* Color Palette */
     --main-color-background: #ffffff;
     --main-color-background-secondary: #000C1D;
@@ -10,10 +13,11 @@
     --main-color-brand: #0D6EFD;
     --main-color-border: #CDCDCD;
     --main-color-props: #0D6EFD15;
-    --main-color-hero-linear-1: #00000080;
-    --main-color-hero-linear-2: #0D6EFD80;
+    --main-color-hero-linear: linear-gradient(#00000080, #0D6EFD80);
+    --main-image-hero: url("./images/covers/hero.jpg");
 
     /* Typography */
+    --main-font-heading-T: 90px;
     --main-font-heading-1: 61px;
     --main-font-heading-2: 49px;
     --main-font-heading-3: 39px;
@@ -27,10 +31,15 @@
 /* Root Styles */
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
 /* Text Sizes */
+.mfh-T {
+    font-size: var(--main-font-heading-T) !important;
+}
+
 .mfh-1 {
     font-size: var(--main-font-heading-1) !important;
 }
@@ -151,6 +160,18 @@
 
 
 /* Navbar */
+.navbar {
+    box-shadow: 0 4px 100px #00000080;
+    transition: all 0.5s ease-out;
+    padding-block: 20px !important;
+}
+
+.navbar-scrolled {
+    box-shadow: 0 4px 50px #00000080;
+    background: var(--main-color-foreground);
+    padding-block: 10px !important;
+}
+
 .nav-link {
     color: var(--main-color-background) !important;
 }
@@ -161,7 +182,31 @@
 }
 
 
+/* Hero */
+.main-hero {
+    background: var(--main-color-hero-linear), var(--main-image-hero) center/cover no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Bootstrap Changes */
 .btn {
     border-radius: 0 !important;
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: var(--main-window-scrollbar);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--main-color-foreground);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color-brand);
 }
