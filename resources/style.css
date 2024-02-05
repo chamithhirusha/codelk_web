@@ -14,7 +14,9 @@
     --main-color-border: #CDCDCD;
     --main-color-props: #0D6EFD15;
     --main-color-hero-linear: linear-gradient(#00000080, #0D6EFD80);
+    --main-color-statics-linear: linear-gradient(#0D6EFD80, #00000062);
     --main-image-hero: url("./images/covers/hero.jpg");
+    --main-image-statics: url("./images/covers/statics.jpg");
 
     /* Typography */
     --main-font-heading-T: 90px;
@@ -192,7 +194,12 @@
 
 /* Custom HR */
 .hr-brand {
-    border: 2px solid var(--main-color-brand);
+    border: 1px solid var(--main-color-brand);
+    opacity: 1;
+}
+
+.hr-background {
+    border: 1px solid var(--main-color-background);
     opacity: 1;
 }
 
@@ -213,6 +220,27 @@
 }
 
 
+/* Service Card */
+.service-card {
+    border: 2px solid var(--main-color-brand);
+    background-color: var(--main-color-background);
+    color: var(--main-color-foreground);
+    transition: all 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    border: 2px solid var(--main-color-background);
+    background-color: var(--main-color-background-secondary);
+    color: var(--main-color-background);
+}
+
+.service-card:active {
+    border: 2px solid var(--main-color-background);
+    background-color: var(--main-color-brand);
+    color: var(--main-color-background);
+}
+
+
 /* Hero */
 .main-hero {
     background: var(--main-color-hero-linear), var(--main-image-hero) center/cover no-repeat;
@@ -228,6 +256,13 @@
 .main-section {
     min-height: 600px;
     padding-block: 80px;
+}
+
+
+/* Statics Section */
+.statics-section {
+    background: var(--main-color-statics-linear), var(--main-image-statics) center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 
