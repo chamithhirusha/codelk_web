@@ -26,3 +26,27 @@ function addAnimation() {
         });
     });
 }
+
+// Emails
+function sendEmail() {
+    var name = document.getElementById("usernameComp").value;
+    var email = document.getElementById("emailComp").value;
+    var company = document.getElementById("companyComp").value;
+    var message = document.getElementById("messageComp").value;
+
+    var toast = document.getElementById("messageSentToast");
+    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toast);
+
+    Email.send({
+        SecureToken: "2bfbf089-e2b9-48ab-aa00-0d342b648362",
+        To: "biz@codelk.com",
+        From: email,
+        Subject: "New Message From CodeLK Visitor",
+        Body: "Name : " + name +
+            "<br>Email : " + email +
+            "<br>Company : " + company +
+            "<br>Message : " + message
+    }).then(
+        message => toastBootstrap.show()
+    );
+}

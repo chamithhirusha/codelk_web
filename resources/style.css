@@ -14,7 +14,7 @@
     --main-color-border: #CDCDCD;
     --main-color-props: #0D6EFD15;
     --main-color-hero-linear: linear-gradient(#00000080, #0D6EFD80);
-    --main-color-statics-linear: linear-gradient(#0D6EFD80, #00000062);
+    --main-color-statics-linear: linear-gradient(#002c6d4d, #000c1da9);
     --main-image-hero: url("./images/covers/hero.jpg");
     --main-image-statics: url("./images/covers/statics1.jpg");
 
@@ -203,6 +203,24 @@
     opacity: 1;
 }
 
+
+/* Form Input Field */
+.form-input-field {
+    background: var(--main-color-props);
+    color: var(--main-color-background);
+    padding: 20px;
+    border: 0px solid var(--main-color-props);
+    transition: border 100ms ease
+}
+
+.form-input-field:focus {
+    outline: none;
+    border-left: 5px solid var(--main-color-brand);
+}
+
+::placeholder {
+    color: var(--main-color-border);
+}
 
 /* Header Box */
 .header-box {
