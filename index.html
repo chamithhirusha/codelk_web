@@ -36,41 +36,47 @@
                         <!-- Navigation Links for Larger Screens -->
                         <ul class="navbar-nav my-auto justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#">Home</a>
+                                <a class="nav-link text-capitalize" href="#Home">Home</a>
                             </li>
                             <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#">Services</a>
+                                <a class="nav-link text-capitalize" href="#Services">Services</a>
                             </li>
                             <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#">Products</a>
+                                <a class="nav-link text-capitalize" href="#"
+                                    onclick="alert('Need to add a section for Products')">Products</a>
                             </li>
                             <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#">About us</a>
+                                <a class="nav-link text-capitalize" href="#About">About us</a>
                             </li>
 
                             <!-- Navigation Links for Smaller Screens -->
                             <li class="nav-item d-block d-md-none fs-2">
-                                <a class="nav-link text-capitalize px-3" href="#">Home</a>
+                                <a class="nav-link text-capitalize px-3" href="#Home">Home</a>
                             </li>
                             <li class="nav-item d-block d-md-none fs-2">
-                                <a class="nav-link text-capitalize px-3" href="#">Services</a>
+                                <a class="nav-link text-capitalize px-3" href="#Services">Services</a>
                             </li>
                             <li class="nav-item d-block d-md-none fs-2">
-                                <a class="nav-link text-capitalize px-3" href="#">Products</a>
+                                <a class="nav-link text-capitalize px-3" href="#"
+                                    onclick="alert('Need to add a section for Products')">Products</a>
                             </li>
                             <li class="nav-item d-block d-md-none fs-2">
-                                <a class="nav-link text-capitalize px-3" href="#">About us</a>
+                                <a class="nav-link text-capitalize px-3" href="#About">About us</a>
                             </li>
                         </ul>
 
                         <!-- Button for Larger Screens -->
                         <div class="d-flex d-none d-md-block">
-                            <button class="btn btn-outline-background fs-4">Let's Talk</button>
+                            <a href="#Contact">
+                                <button class="btn btn-outline-background fs-4">Let's Talk</button>
+                            </a>
                         </div>
 
                         <!-- Button for Smaller Screens -->
                         <div class="d-flex d-block d-md-none mt-3 px-3">
-                            <button class="btn btn-outline-brand fs-1">Let's Talk</button>
+                            <a href="#Contact">
+                                <button class="btn btn-outline-brand fs-1">Let's Talk</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -79,8 +85,8 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="Hero">
+        <!-- Home Section -->
+        <section id="Home">
             <div class="container-fluid main-hero">
                 <div class="container text-center">
                     <p class="display-1 mfc-background fw-semibold" id="hero-title">The technology of next generation
@@ -116,8 +122,8 @@
             </div>
         </section>
 
-        <!-- About Us Section -->
-        <section id="AboutUs">
+        <!-- About Section -->
+        <section id="About">
             <div class="container-fluid main-section d-flex justify-content-center">
                 <div class="container p-0 row gx-5">
                     <div class="col-12 col-lg-6 mb-4 mb-lg-0">
@@ -131,7 +137,7 @@
                         <p class="display-4 fw-semibold">
                             What makes us who we are today
                         </p>
-                        <p class="lead fw-normal mfc-foreground-secondary pb-4">
+                        <p class="fs-5 fw-normal mfc-foreground-secondary pb-4">
                             CodeLK pioneers innovative tech solutions globally, specializing in web design, app
                             development,
                             ERPs, CRMs, e-commerce, and client-focused services with quality assurance.
@@ -168,8 +174,8 @@
             </div>
         </section>
 
-        <!-- Our Services Section -->
-        <section id="OurServices">
+        <!-- Services Section -->
+        <section id="Services">
             <div class="container-fluid main-section mfbg-brand d-flex justify-content-center">
                 <div class="container d-grid text-center justify-content-center">
                     <div class="d-grid justify-content-center">
@@ -266,10 +272,11 @@
                         <p class="display-4 fw-semibold">
                             Do you need our service?
                         </p>
-                        <p class="lead  fw-normal mfc-foreground-secondary">biz@codelk.com</p>
-                        <p class="lead fw-normal mfc-foreground-secondary">+94 77 862 5757. +94 11 208 3700</p>
-                        <p class="lead fw-normal mfc-foreground-secondary">No. 65/5, Kamathgodella Road ,Habarakada,</p>
-                        <p class="lead fw-normal mfc-foreground-secondary">Homagama, Sri Lanka.</p>
+                        <p class="fs-5 fw-normal mfc-foreground-secondary">biz@codelk.com</p>
+                        <p class="fs-5 fw-normal mfc-foreground-secondary">+94 77 862 5757</p>
+                        <p class="fs-5 fw-normal mfc-foreground-secondary">+94 11 208 3700</p>
+                        <p class="fs-5 fw-normal mfc-foreground-secondary text-wrap w-75">No. 65/5, Kamathgodella Road
+                            ,Habarakada, Homagama, Sri Lanka.</p>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-start justify-content-lg-end">
                         <img src="./resources/images/objects/qr.png" alt="" class="img-fluid h-100 object-fit-contain">
@@ -282,7 +289,7 @@
     <footer>
         <div class="container-fluid mfbg-brand py-4">
             <div class="container">
-                <p class="fs-6 m-0 mfc-background fw-normal">
+                <p class="fs-6 m-0 mfc-background fw-normal text-center text-md-start">
                     &copy; 2024 CodeLK. All rights reserved.
                 </p>
             </div>
