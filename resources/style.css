@@ -38,34 +38,42 @@
 /* Text Sizes */
 .mfh-T {
     font-size: var(--main-font-heading-T) !important;
+    line-height: 120%;
 }
 
 .mfh-1 {
     font-size: var(--main-font-heading-1) !important;
+    line-height: 120%;
 }
 
 .mfh-2 {
     font-size: var(--main-font-heading-2) !important;
+    line-height: 120%;
 }
 
 .mfh-3 {
     font-size: var(--main-font-heading-3) !important;
+    line-height: 120%;
 }
 
 .mfh-4 {
     font-size: var(--main-font-heading-4) !important;
+    line-height: 120%;
 }
 
 .mfh-5 {
     font-size: var(--main-font-heading-5) !important;
+    line-height: 120%;
 }
 
 .mfh-6 {
     font-size: var(--main-font-heading-6) !important;
+    line-height: 160%;
 }
 
 .mfh-7 {
     font-size: var(--main-font-heading-7) !important;
+    line-height: 120%;
 }
 
 
@@ -182,6 +190,29 @@
 }
 
 
+/* Custom HR */
+.hr-brand {
+    border: 2px solid var(--main-color-brand);
+    opacity: 1;
+}
+
+
+/* Header Box */
+.header-box {
+    max-width: fit-content;
+}
+
+
+/* Props Box */
+.props-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    min-height: 80px;
+}
+
+
 /* Hero */
 .main-hero {
     background: var(--main-color-hero-linear), var(--main-image-hero) center/cover no-repeat;
@@ -191,6 +222,14 @@
     justify-content: center;
     align-items: center;
 }
+
+
+/* Main Section */
+.main-section {
+    min-height: 600px;
+    padding: 20px;
+}
+
 
 /* Bootstrap Changes */
 .btn {
