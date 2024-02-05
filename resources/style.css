@@ -16,7 +16,7 @@
     --main-color-hero-linear: linear-gradient(#00000080, #0D6EFD80);
     --main-color-statics-linear: linear-gradient(#0D6EFD80, #00000062);
     --main-image-hero: url("./images/covers/hero.jpg");
-    --main-image-statics: url("./images/covers/statics.jpg");
+    --main-image-statics: url("./images/covers/statics1.jpg");
 
     /* Typography */
     --main-font-heading-T: 90px;
