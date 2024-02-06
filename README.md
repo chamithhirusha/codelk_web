@@ -5,6 +5,8 @@
 ### Used dependencies
 
 - Bootstrap 5.3.2v
+- smtpjs
+- propperjs
 
 ---
 
