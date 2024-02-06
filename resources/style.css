@@ -1,362 +1,363 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    /* General Values */
-    --main-window-scrollbar: 8px;
+  /* General Values */
+  --main-window-scrollbar: 8px;
 
-    /* Color Palette */
-    --main-color-background: #ffffff;
-    --main-color-background-secondary: #000C1D;
-    --main-color-foreground: #000000;
-    --main-color-foreground-secondary: #4A4A4A;
-    --main-color-brand: #0D6EFD;
-    --main-color-border: #CDCDCD;
-    --main-color-props: #0D6EFD15;
-    --main-color-hero-linear: linear-gradient(#00000080, #0D6EFD80);
-    --main-color-statics-linear: linear-gradient(#002c6d4d, #000c1da9);
-    --main-image-hero: url("./images/covers/hero.jpg");
-    --main-image-statics: url("./images/covers/statics1.jpg");
+  /* Color Palette */
+  --main-color-background: #ffffff;
+  --main-color-background-secondary: #000c1d;
+  --main-color-foreground: #000000;
+  --main-color-foreground-secondary: #4a4a4a;
+  --main-color-brand: #0d6efd;
+  --main-color-border: #cdcdcd;
+  --main-color-props: #0d6efd15;
+  --main-color-hero-linear: linear-gradient(#00000080, #0d6efd80);
+  --main-color-statics-linear: linear-gradient(#002c6d4d, #000c1da9);
+  --main-image-hero: url("./images/covers/hero.jpg");
+  --main-image-statics: url("./images/covers/statics1.jpg");
 
-    /* Typography */
-    --main-font-heading-T: 90px;
-    --main-font-heading-1: 61px;
-    --main-font-heading-2: 49px;
-    --main-font-heading-3: 39px;
-    --main-font-heading-4: 31px;
-    --main-font-heading-5: 25px;
-    --main-font-heading-6: 20px;
-    --main-font-heading-7: 16px;
+  /* Typography */
+  --main-font-heading-T: 90px;
+  --main-font-heading-1: 61px;
+  --main-font-heading-2: 49px;
+  --main-font-heading-3: 39px;
+  --main-font-heading-4: 31px;
+  --main-font-heading-5: 25px;
+  --main-font-heading-6: 20px;
+  --main-font-heading-7: 16px;
 }
-
 
 /* Root Styles */
 * {
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
-
 
 /* Text Sizes */
 .mfh-T {
-    font-size: var(--main-font-heading-T) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-T) !important;
+  line-height: 120%;
 }
 
 .mfh-1 {
-    font-size: var(--main-font-heading-1) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-1) !important;
+  line-height: 120%;
 }
 
 .mfh-2 {
-    font-size: var(--main-font-heading-2) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-2) !important;
+  line-height: 120%;
 }
 
 .mfh-3 {
-    font-size: var(--main-font-heading-3) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-3) !important;
+  line-height: 120%;
 }
 
 .mfh-4 {
-    font-size: var(--main-font-heading-4) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-4) !important;
+  line-height: 120%;
 }
 
 .mfh-5 {
-    font-size: var(--main-font-heading-5) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-5) !important;
+  line-height: 120%;
 }
 
 .mfh-6 {
-    font-size: var(--main-font-heading-6) !important;
-    line-height: 160%;
+  font-size: var(--main-font-heading-6) !important;
+  line-height: 160%;
 }
 
 .mfh-7 {
-    font-size: var(--main-font-heading-7) !important;
-    line-height: 120%;
+  font-size: var(--main-font-heading-7) !important;
+  line-height: 120%;
 }
-
 
 /* Base Colors */
 .mfbg-brand {
-    background-color: var(--main-color-brand) !important;
+  background-color: var(--main-color-brand) !important;
 }
 
 .mfbg-background {
-    background-color: var(--main-color-background) !important;
+  background-color: var(--main-color-background) !important;
 }
 
 .mfbg-background-secondary {
-    background-color: var(--main-color-background-secondary) !important;
+  background-color: var(--main-color-background-secondary) !important;
 }
 
 .mfbg-foreground {
-    background-color: var(--main-color-foreground) !important;
+  background-color: var(--main-color-foreground) !important;
 }
 
 .mfbg-foreground-secondary {
-    background-color: var(--main-color-foreground-secondary) !important;
+  background-color: var(--main-color-foreground-secondary) !important;
 }
 
 .mfbg-props {
-    background-color: var(--main-color-props) !important;
+  background-color: var(--main-color-props) !important;
 }
-
 
 /* Border Colors */
 .mfc-border {
-    border: 1px solid var(--main-color-border) !important;
+  border: 1px solid var(--main-color-border) !important;
 }
-
 
 /* Text Colors */
 .mfc-brand {
-    color: var(--main-color-brand);
+  color: var(--main-color-brand);
 }
 
 .mfc-background {
-    color: var(--main-color-background);
+  color: var(--main-color-background);
 }
 
 .mfc-foreground {
-    color: var(--main-color-foreground);
+  color: var(--main-color-foreground);
 }
 
 .mfc-foreground-secondary {
-    color: var(--main-color-foreground-secondary);
+  color: var(--main-color-foreground-secondary);
 }
-
 
 /* Button Varients */
 /* Button Brand */
 .btn-outline-brand {
-    background-color: transparent !important;
-    border: 2px solid var(--main-color-brand) !important;
-    color: var(--main-color-brand) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--main-color-brand) !important;
+  color: var(--main-color-brand) !important;
 }
 
 .btn-outline-brand:hover {
-    background-color: var(--main-color-brand) !important;
-    border: 2px solid var(--main-color-brand) !important;
-    color: var(--main-color-background) !important;
+  background-color: var(--main-color-brand) !important;
+  border: 2px solid var(--main-color-brand) !important;
+  color: var(--main-color-background) !important;
 }
 
 .btn-outline-brand:active {
-    background-color: var(--main-color-foreground) !important;
-    border: 2px solid var(--main-color-foreground) !important;
-    color: var(--main-color-background) !important;
+  background-color: var(--main-color-foreground) !important;
+  border: 2px solid var(--main-color-foreground) !important;
+  color: var(--main-color-background) !important;
 }
 
 /* Button Background */
 .btn-outline-background {
-    background-color: transparent !important;
-    border: 2px solid var(--main-color-background) !important;
-    color: var(--main-color-background) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--main-color-background) !important;
+  color: var(--main-color-background) !important;
 }
 
 .btn-outline-background:hover {
-    background-color: var(--main-color-background) !important;
-    border: 2px solid var(--main-color-background) !important;
-    color: var(--main-color-brand) !important;
+  background-color: var(--main-color-background) !important;
+  border: 2px solid var(--main-color-background) !important;
+  color: var(--main-color-brand) !important;
 }
 
 .btn-outline-background:active {
-    background-color: var(--main-color-foreground) !important;
-    border: 2px solid var(--main-color-foreground) !important;
-    color: var(--main-color-background) !important;
+  background-color: var(--main-color-foreground) !important;
+  border: 2px solid var(--main-color-foreground) !important;
+  color: var(--main-color-background) !important;
 }
-
 
 /* Navbar */
 .navbar {
-    box-shadow: 0 4px 100px #00000080;
-    transition: all 0.5s ease-out;
-    padding-block: 20px !important;
+  box-shadow: 0 4px 100px #00000080;
+  transition: all 0.5s ease-out;
+  padding-block: 10px !important;
 }
 
 .navbar-scrolled {
-    box-shadow: 0 4px 50px #00000080;
-    background: var(--main-color-foreground);
-    padding-block: 10px !important;
+  box-shadow: 0 4px 50px #00000080;
+  background: #000000cb;
+  padding-block: 30px !important;
 }
 
 .nav-link {
-    color: var(--main-color-background) !important;
+  color: var(--main-color-background) !important;
 }
 
 .nav-link:hover {
-    background-color: var(--main-color-brand) !important;
-    color: var(--main-color-background) !important;
+  background-color: var(--main-color-brand) !important;
+  color: var(--main-color-background) !important;
 }
-
 
 /* Custom HR */
 .hr-brand {
-    border: 1px solid var(--main-color-brand);
-    opacity: 1;
+  border: 1px solid var(--main-color-brand);
+  opacity: 1;
 }
 
 .hr-background {
-    border: 1px solid var(--main-color-background);
-    opacity: 1;
+  border: 1px solid var(--main-color-background);
+  opacity: 1;
 }
-
 
 /* Form Input Field */
 .form-input-field {
-    background: var(--main-color-props);
-    color: var(--main-color-background);
-    padding: 20px;
-    border: 0px solid var(--main-color-props);
-    transition: border 100ms ease
+  background: var(--main-color-props);
+  color: var(--main-color-background);
+  padding: 20px;
+  border: 0px solid var(--main-color-props);
+  transition: border 100ms ease;
 }
 
 .form-input-field:focus {
-    outline: none;
-    border-left: 5px solid var(--main-color-brand);
+  outline: none;
+  border-left: 5px solid var(--main-color-brand);
 }
 
 ::placeholder {
-    color: var(--main-color-border);
+  color: var(--main-color-border);
 }
 
 /* Header Box */
 .header-box {
-    max-width: fit-content;
+  max-width: fit-content;
 }
-
 
 /* Props Box */
 .props-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 80px;
-    min-height: 80px;
-    max-width: 80px;
-    max-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
 }
-
 
 /* Service Card */
 .service-card {
-    border-left: 0px solid var(--main-color-background);
-    background-color: var(--main-color-background);
-    color: var(--main-color-foreground);
-    transition: border-left 0.2s ease-in-out;
-    cursor: pointer;
-    user-select: none;
+  border-left: 0px solid var(--main-color-background);
+  background-color: var(--main-color-background);
+  color: var(--main-color-foreground);
+  transition: border-left 0.2s ease-in-out;
+  cursor: pointer;
+  user-select: none;
 }
 
 .service-card:hover {
-    border-left: 20px solid var(--main-color-background-secondary);
+  border-left: 20px solid var(--main-color-background-secondary);
 }
 
 .service-card:active {
-    border-left: 20px solid var(--main-color-background);
-    background-color: var(--main-color-brand);
-    color: var(--main-color-background);
-    transition: none;
+  border-left: 20px solid var(--main-color-background);
+  background-color: var(--main-color-brand);
+  color: var(--main-color-background);
+  transition: none;
 }
 
 .service-card:active i {
-    color: var(--main-color-background);
+  color: var(--main-color-background);
 }
-
-
 
 /* Hero */
 .main-hero {
-    background: var(--main-color-hero-linear), var(--main-image-hero) center/cover no-repeat;
-    background-attachment: fixed;
-    min-height: 700px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  background: var(--main-color-hero-linear),
+    var(--main-image-hero) center/cover no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
+#hero-title {
+  margin-bottom: 25%;
+}
+
+#hero-image {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  top: 75%;
+  max-width: 75%;
+}
 
 /* Main Section */
 .main-section {
-    min-height: 600px;
-    padding-block: 80px;
+  min-height: 600px;
+  padding-block: 80px;
 }
-
 
 /* Statics Section */
 .statics-section {
-    background: var(--main-color-statics-linear), var(--main-image-statics) center/cover no-repeat;
-    background-attachment: fixed;
+  background: var(--main-color-statics-linear),
+    var(--main-image-statics) center/cover no-repeat;
+  background-attachment: fixed;
 }
-
 
 /* Bootstrap Changes */
 .btn {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
-
 
 /* Scroller Component */
 .scroller {
-    border-bottom: 1px solid var(--main-color-border);
+  border-bottom: 1px solid var(--main-color-border);
 }
 
 .scroller__inner {
-    padding-block: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 
 .scroller__inner img {
-    height: 60px;
+  height: 60px;
 }
 
 .scroller[data-animated="true"] {
-    overflow: hidden;
-    -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
 .scroller[data-animated="true"] .scroller__inner {
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
 }
 
 .scroller[data-direction="right"] {
-    --_animation-direction: reverse;
+  --_animation-direction: reverse;
 }
 
 .scroller[data-direction="left"] {
-    --_animation-direction: forwards;
+  --_animation-direction: forwards;
 }
 
 .scroller[data-speed="fast"] {
-    --_animation-duration: 60s;
+  --_animation-duration: 60s;
 }
 
 .scroller[data-speed="slow"] {
-    --_animation-duration: 120s;
+  --_animation-duration: 120s;
 }
 
 @keyframes scroll {
-    to {
-        transform: translate(calc(-50% - 0.5rem));
-    }
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-    width: var(--main-window-scrollbar);
+  width: var(--main-window-scrollbar);
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--main-color-foreground);
+  background: var(--main-color-foreground);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color-brand);
+  background: var(--main-color-brand);
 }
