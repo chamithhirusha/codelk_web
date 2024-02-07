@@ -204,7 +204,7 @@
 .form-input-field {
   background: var(--main-color-props);
   color: var(--main-color-background);
-  padding: 20px;
+  /* padding: 20px; */
   border: 0px solid var(--main-color-props);
   transition: border 100ms ease;
 }
@@ -351,17 +351,4 @@
   to {
     transform: translate(calc(-50% - 0.5rem));
   }
-}
-
-/* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: var(--main-window-scrollbar);
-}
-
-::-webkit-scrollbar-track {
-  background: var(--main-color-foreground);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--main-color-brand);
 }
