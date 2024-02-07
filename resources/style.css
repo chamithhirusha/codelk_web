@@ -166,13 +166,13 @@
 .navbar {
   box-shadow: 0 4px 100px #00000080;
   transition: all 0.5s ease-out;
-  padding-block: 10px !important;
+  padding-block: 20px !important;
 }
 
 .navbar-scrolled {
   box-shadow: 0 4px 50px #00000080;
   background: #000000cb;
-  padding-block: 30px !important;
+  padding-block: 10px !important;
 }
 
 .nav-link {
@@ -259,7 +259,7 @@
   background: var(--main-color-hero-linear),
     var(--main-image-hero) center/cover no-repeat;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 500px;
   display: grid;
   justify-content: center;
   align-items: center;
