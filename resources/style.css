@@ -302,7 +302,7 @@
 
 /* Scroller Component */
 .scroller {
-  border-top: 1px solid var(--main-color-border);
+  border-bottom: 1px solid var(--main-color-border);
 }
 
 .scroller__inner {
