@@ -7,6 +7,9 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("navbar-scrolled");
   }
 });
+document.querySelector('.navbar-toggler').addEventListener('click', function () {
+  document.querySelector('.navbar').classList.toggle('nav-toggle-color');
+});
 
 // hero-title hero-image
 const heroTitle = document.getElementById("hero-title");

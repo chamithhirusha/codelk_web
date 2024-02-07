@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>CodeLK</title>
+    <title>Empower your future - CodeLK</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="./resources/style.css" />
@@ -20,68 +20,56 @@
                     <span class="display-6 fw-medium mfc-background">Code<span
                             class="mfc-brand fw-medium">LK</span></span>
                 </a>
-                <button class="navbar-toggler btn border-0" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <button class="navbar-toggler btn border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="bi-list display-6 mfc-background"></span>
                 </button>
-                <div class="offcanvas offcanvas-end mfbg-foreground" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                            <span class="display-5 fw-medium mfc-background">Code<span
-                                    class="mfc-brand fw-medium">LK</span></span>
-                        </h5>
-                        <button type="button" class="btn-close mfbg-background" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link text-capitalize" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link text-capitalize" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link text-capitalize" href="#"
+                                onclick="alert('Need to add a section for Products')">Products</a>
+                        </li>
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link text-capitalize" href="#About">About us</a>
+                        </li>
+
+                        <!-- Navigation Links for Smaller Screens -->
+                        <li class="nav-item d-block d-md-none fs-5 pt-3">
+                            <a class="nav-link text-capitalize px-3" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item d-block d-md-none fs-5">
+                            <a class="nav-link text-capitalize px-3" href="#Services">Services</a>
+                        </li>
+                        <li class="nav-item d-block d-md-none fs-5">
+                            <a class="nav-link text-capitalize px-3" href="#"
+                                onclick="alert('Need to add a section for Products')">Products</a>
+                        </li>
+                        <li class="nav-item d-block d-md-none fs-5">
+                            <a class="nav-link text-capitalize px-3" href="#About">About us</a>
+                        </li>
+                    </ul>
+                    <!-- Button for Larger Screens -->
+                    <div class="d-flex ms-3 d-none d-md-block">
+                        <a href="#Contact">
+                            <button class="btn btn-outline-background fs-4">
+                                Let's Talk
+                            </button>
+                        </a>
                     </div>
-                    <div class="offcanvas-body">
-                        <!-- Navigation Links for Larger Screens -->
-                        <ul class="navbar-nav my-auto justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#Home">Home</a>
-                            </li>
-                            <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#Services">Services</a>
-                            </li>
-                            <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#"
-                                    onclick="alert('Need to add a section for Products')">Products</a>
-                            </li>
-                            <li class="nav-item d-none d-md-block">
-                                <a class="nav-link text-capitalize" href="#About">About us</a>
-                            </li>
 
-                            <!-- Navigation Links for Smaller Screens -->
-                            <li class="nav-item d-block d-md-none fs-5">
-                                <a class="nav-link text-capitalize px-3" href="#Home">Home</a>
-                            </li>
-                            <li class="nav-item d-block d-md-none fs-5">
-                                <a class="nav-link text-capitalize px-3" href="#Services">Services</a>
-                            </li>
-                            <li class="nav-item d-block d-md-none fs-5">
-                                <a class="nav-link text-capitalize px-3" href="#"
-                                    onclick="alert('Need to add a section for Products')">Products</a>
-                            </li>
-                            <li class="nav-item d-block d-md-none fs-5">
-                                <a class="nav-link text-capitalize px-3" href="#About">About us</a>
-                            </li>
-                        </ul>
-
-                        <!-- Button for Larger Screens -->
-                        <div class="d-flex d-none d-md-block">
-                            <a href="#Contact">
-                                <button class="btn btn-outline-background fs-4">
-                                    Let's Talk
-                                </button>
-                            </a>
-                        </div>
-
-                        <!-- Button for Smaller Screens -->
-                        <div class="d-flex d-block d-md-none mt-3 px-3">
-                            <a href="#Contact">
-                                <button class="btn btn-outline-background fs-4">Let's Talk</button>
-                            </a>
-                        </div>
+                    <!-- Button for Smaller Screens -->
+                    <div class="d-flex d-block d-md-none mt-3 px-3 pb-3">
+                        <a href="#Contact">
+                            <button class="btn btn-outline-background fs-4">Let's Talk</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -97,33 +85,6 @@
                         Next generation technology
                     </p>
                     <button class="btn-outline-background btn btn-lg" id="hero-btn">learn more</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Clients Section -->
-        <section id="Clients">
-            <div class="container-fluid">
-                <div class="scroller" data-direction="left" data-speed="slow">
-                    <div class="scroller__inner">
-                        <img src="./resources/images/clients/alankar.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/abs.png" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/beachline.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/beevoip.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/beme.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/de_silva.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/dithsara.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/happy_dine.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/icloudbay.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/pappercube.png" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/provision.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/rahumath.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/rpk.png" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/seeamles.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/viral.png" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/vista.jpg" alt="" class="img-fluid" />
-                        <img src="./resources/images/clients/webflux.jpg" alt="" class="img-fluid" />
-                    </div>
                 </div>
             </div>
         </section>
@@ -316,8 +277,34 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                        <img src="./resources/images/objects/qr.png" alt=""
-                            class="img-fluid h-100 object-fit-contain" />
+                        <img src="./resources/images/objects/qr.png" class="img-fluid h-100 object-fit-contain" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="Clients">
+            <div class="container-fluid">
+                <div class="scroller" data-direction="left" data-speed="slow">
+                    <div class="scroller__inner">
+                        <img src="./resources/images/clients/alankar.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/abs.png" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/beachline.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/beevoip.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/beme.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/de_silva.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/dithsara.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/happy_dine.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/icloudbay.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/pappercube.png" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/provision.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/rahumath.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/rpk.png" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/seeamles.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/viral.png" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/vista.jpg" alt="" class="img-fluid" />
+                        <img src="./resources/images/clients/webflux.jpg" alt="" class="img-fluid" />
                     </div>
                 </div>
             </div>
