@@ -94,8 +94,8 @@
             <div class="container-fluid main-section d-flex justify-content-center">
                 <div class="container p-0 row gx-5">
                     <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <img src="./resources/images/covers/image1.jpg" alt=""
-                            class="img-fluid h-100 object-fit-cover" />
+                        <img src="./resources/images/objects/web-designer.svg" alt=""
+                            class="img-fluid h-100 object-fit-contain" />
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="header-box mb-3">
@@ -277,7 +277,8 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
-                        <img src="./resources/images/objects/qr.png" class="img-fluid h-100 object-fit-contain" />
+                        <img src="./resources/images/objects/web-designer-building-website.svg"
+                            class="img-fluid h-100 object-fit-contain" />
                     </div>
                 </div>
             </div>
@@ -314,29 +315,38 @@
         <section id="Form">
             <div
                 class="container-fluid main-section mfbg-background-secondary mfc-background d-flex justify-content-center">
-                <div class="container">
-                    <div class="header-box mb-3">
-                        <p class="mfc-brand fw-semibold m-0">Get in Touch</p>
-                        <hr class="hr-brand m-0" />
+                <div class="container p-0 row gx-5">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end">
+                        <img src="./resources/images/objects/web-design-layout.svg"
+                            class="img-fluid h-100 object-fit-contain" />
                     </div>
-                    <p class="display-4 fw-semibold pb-3">Send us your message</p>
-                    <form action="" method="post" onsubmit="sendEmail(); reset(); return false;">
-                        <div class="d-grid gap-3 mb-4">
-                            <input type="text" class="form-input-field" name="username" id="usernameComp"
-                                placeholder="Name" required />
-                            <input type="email" class="form-input-field" name="email" id="emailComp" placeholder="Email"
-                                required />
-                            <input type="text" class="form-input-field" name="company" id="companyComp"
-                                placeholder="Company (Optional)" />
-                            <textarea name="message" id="messageComp" cols="30" rows="8" class="form-input-field"
-                                placeholder="Your Message" minlength="10" maxlength="5000" required></textarea>
+                    <div class="col-12 col-lg-6">
+                        <div class="header-box mb-3">
+                            <p class="mfc-brand fw-semibold m-0">Get in Touch</p>
+                            <hr class="hr-brand m-0" />
                         </div>
-                        <div class="d-grid d-lg-block">
-                            <button class="btn btn-outline-background float-end" type="submit">
-                                <i class="bi-send me-2"></i>Send Message
-                            </button>
+                        <p class="display-4 fw-semibold pb-3">Send us your message</p>
+                        <div class="gap-3 d-grid mb-4 mb-lg-0">
+                            <form action="" method="post" onsubmit="sendEmail(); reset(); return false;">
+                                <div class="d-grid gap-3 mb-4">
+                                    <input type="text" class="form-input-field" name="username" id="usernameComp"
+                                        placeholder="Name" required />
+                                    <input type="email" class="form-input-field" name="email" id="emailComp"
+                                        placeholder="Email" required />
+                                    <input type="text" class="form-input-field" name="company" id="companyComp"
+                                        placeholder="Company (Optional)" />
+                                    <textarea name="message" id="messageComp" cols="30" rows="8"
+                                        class="form-input-field" placeholder="Your Message" minlength="10"
+                                        maxlength="5000" required></textarea>
+                                </div>
+                                <div class="d-grid d-lg-block">
+                                    <button class="btn btn-outline-background float-end" type="submit">
+                                        <i class="bi-send me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>
