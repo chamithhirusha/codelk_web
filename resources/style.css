@@ -14,9 +14,9 @@
   --main-color-border: #cdcdcd;
   --main-color-props: #0d6efd15;
   --main-color-hero-linear: linear-gradient(#00000080, #0d6efd80);
-  --main-color-statics-linear: linear-gradient(#002c6d4d, #000c1da9);
-  --main-image-hero: url("./images/covers/hero.jpg");
-  --main-image-statics: url("./images/covers/statics1.jpg");
+  --main-color-statics-linear: linear-gradient(#000c1db7, #000c1dde);
+  --main-image-hero: url("./images/covers/jigar-panchal-bikKtf6mgZ8-unsplash.jpg");
+  --main-image-statics: url("./images/covers/jigar-panchal-ResvUgDlY74-unsplash.jpg");
 
   /* Typography */
   --main-font-heading-T: 90px;
@@ -175,6 +175,11 @@
   padding-block: 10px !important;
 }
 
+.nav-toggle-color {
+  box-shadow: 0 4px 50px #00000080;
+  background: #000000;
+}
+
 .nav-link {
   color: var(--main-color-background) !important;
 }
@@ -258,8 +263,7 @@
 .main-hero {
   background: var(--main-color-hero-linear),
     var(--main-image-hero) center/cover no-repeat;
-  background-attachment: fixed;
-  min-height: 500px;
+  min-height: 700px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -297,7 +301,7 @@
 
 /* Scroller Component */
 .scroller {
-  border-bottom: 1px solid var(--main-color-border);
+  border-top: 1px solid var(--main-color-border);
 }
 
 .scroller__inner {
