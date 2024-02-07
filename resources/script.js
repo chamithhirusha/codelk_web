@@ -11,10 +11,12 @@ window.addEventListener("scroll", () => {
 // hero-title hero-image
 const heroTitle = document.getElementById("hero-title");
 const heroImage = document.getElementById("hero-image");
+const heroBtn = document.getElementById("hero-btn");
 window.addEventListener("scroll", () => {
   const scrollPosition = window.scrollY;
-  heroTitle.style.transform = "translateY(" + scrollPosition * 1.5 + "px) scale(" + (1 + scrollPosition / 1000) + ")";
-  heroTitle.style.opacity = 1 - (scrollPosition / 500);
+  heroTitle.style.transform = "translateY(" + scrollPosition * 0.5 + "px) scale(" + (1 + scrollPosition / 500) + ")";
+  heroBtn.style.transform = "translateY(" + scrollPosition * 0.7 + "px) scale(" + (1 + scrollPosition / 500) + ")";
+  heroTitle.style.opacity = 1 - (scrollPosition / 800);
   heroImage.style.transform = "translateY(" + scrollPosition * -0.1 + "px) scale(" + (1 + scrollPosition / 1000) + ")";
 });
 
