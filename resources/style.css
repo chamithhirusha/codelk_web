@@ -258,7 +258,7 @@ h6 {
 .main-hero {
   background: var(--main-color-hero-linear),
     var(--main-image-hero) center/cover no-repeat;
-  min-height: 75vh;
+  min-height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
