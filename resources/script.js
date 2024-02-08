@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
   const scrollPosition = window.scrollY;
   heroTitle.style.transform = "translateY(" + scrollPosition * 0.5 + "px) scale(" + (1 + scrollPosition / 500) + ")";
   heroBtn.style.transform = "translateY(" + scrollPosition * 0.7 + "px) scale(" + (1 + scrollPosition / 500) + ")";
-  heroTitle.style.opacity = 1 - (scrollPosition / 800);
+  heroTitle.style.opacity = 1 - (scrollPosition / 1500);
   heroImage.style.transform = "translateY(" + scrollPosition * -0.1 + "px) scale(" + (1 + scrollPosition / 1000) + ")";
 });
 
