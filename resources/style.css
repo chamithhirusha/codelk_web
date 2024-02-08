@@ -1,5 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
   /* General Values */
@@ -10,23 +11,21 @@
   --main-color-background-secondary: #000c1d;
   --main-color-foreground: #000000;
   --main-color-foreground-secondary: #4a4a4a;
-  --main-color-brand: #0d6efd;
+  --main-color-brand: #0097CD;
   --main-color-border: #cdcdcd;
   --main-color-props: #0d6efd15;
-  --main-color-hero-linear: linear-gradient(#00000080, #0d6efd80);
+  --main-color-hero-linear: linear-gradient(#000000d0, #0048cd1f);
   --main-color-statics-linear: linear-gradient(#000c1db7, #000c1dde);
-  --main-image-hero: url("./images/covers/jigar-panchal-bikKtf6mgZ8-unsplash.jpg");
-  --main-image-statics: url("./images/covers/jigar-panchal-ResvUgDlY74-unsplash.jpg");
+  --main-image-hero: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --main-image-statics: url("https://images.unsplash.com/photo-1518107616985-bd48230d3b20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 
   /* Typography */
-  --main-font-heading-T: 90px;
-  --main-font-heading-1: 61px;
-  --main-font-heading-2: 49px;
-  --main-font-heading-3: 39px;
+  --main-font-heading-1: 86px;
+  --main-font-heading-2: 61px;
+  --main-font-heading-3: 44px;
   --main-font-heading-4: 31px;
-  --main-font-heading-5: 25px;
-  --main-font-heading-6: 20px;
-  --main-font-heading-7: 16px;
+  --main-font-heading-5: 22px;
+  --main-font-heading-6: 16px;
 }
 
 /* Root Styles */
@@ -36,90 +35,84 @@
 }
 
 /* Text Sizes */
-.mfh-T {
-  font-size: var(--main-font-heading-T) !important;
+h1 {
+  font-size: var(--main-font-heading-1);
   line-height: 120%;
 }
 
-.mfh-1 {
-  font-size: var(--main-font-heading-1) !important;
+h2 {
+  font-size: var(--main-font-heading-2);
   line-height: 120%;
 }
 
-.mfh-2 {
-  font-size: var(--main-font-heading-2) !important;
+h3 {
+  font-size: var(--main-font-heading-3);
   line-height: 120%;
 }
 
-.mfh-3 {
-  font-size: var(--main-font-heading-3) !important;
+h4 {
+  font-size: var(--main-font-heading-4);
   line-height: 120%;
 }
 
-.mfh-4 {
-  font-size: var(--main-font-heading-4) !important;
+h5 {
+  font-size: var(--main-font-heading-5);
   line-height: 120%;
 }
 
-.mfh-5 {
-  font-size: var(--main-font-heading-5) !important;
-  line-height: 120%;
-}
-
-.mfh-6 {
-  font-size: var(--main-font-heading-6) !important;
+h6 {
+  font-size: var(--main-font-heading-6);
   line-height: 160%;
 }
 
-.mfh-7 {
-  font-size: var(--main-font-heading-7) !important;
-  line-height: 120%;
+.fs-small {
+  font-size: small !important;
 }
 
 /* Base Colors */
-.mfbg-brand {
-  background-color: var(--main-color-brand) !important;
+.bg-brand {
+  background-color: var(--main-color-brand);
 }
 
-.mfbg-background {
-  background-color: var(--main-color-background) !important;
+.bg-background {
+  background-color: var(--main-color-background);
 }
 
-.mfbg-background-secondary {
-  background-color: var(--main-color-background-secondary) !important;
+.bg-background-secondary {
+  background-color: var(--main-color-background-secondary);
 }
 
-.mfbg-foreground {
-  background-color: var(--main-color-foreground) !important;
+.bg-foreground {
+  background-color: var(--main-color-foreground);
 }
 
-.mfbg-foreground-secondary {
-  background-color: var(--main-color-foreground-secondary) !important;
+.bg-foreground-secondary {
+  background-color: var(--main-color-foreground-secondary);
 }
 
-.mfbg-props {
-  background-color: var(--main-color-props) !important;
+.bg-props {
+  background-color: var(--main-color-props);
 }
 
 /* Border Colors */
-.mfc-border {
-  border: 1px solid var(--main-color-border) !important;
+.border-main {
+  border: 1px solid var(--main-color-border);
 }
 
 /* Text Colors */
-.mfc-brand {
+.text-brand {
   color: var(--main-color-brand);
 }
 
-.mfc-background {
+.text-background {
   color: var(--main-color-background);
 }
 
-.mfc-foreground {
+.text-foreground {
   color: var(--main-color-foreground);
 }
 
-.mfc-foreground-secondary {
+.text-foreground-secondary {
   color: var(--main-color-foreground-secondary);
 }
 
@@ -171,7 +164,7 @@
 
 .navbar-scrolled {
   box-shadow: 0 4px 50px #00000080;
-  background: #000000cb;
+  background: #000000e3;
   padding-block: 10px !important;
 }
 
@@ -182,6 +175,7 @@
 
 .nav-link {
   color: var(--main-color-background) !important;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -268,10 +262,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
-}
-
-#hero-title {
-  /* margin-bottom: 25%; */
+  overflow: hidden;
+  position: relative;
 }
 
 #hero-image {
@@ -284,12 +276,16 @@
 
 /* Main Section */
 .main-section {
+  display: flex;
+  justify-content: center;
   min-height: 600px;
   padding-block: 80px;
 }
 
 /* Statics Section */
 .statics-section {
+  display: flex;
+  justify-content: center;
   background: var(--main-color-statics-linear),
     var(--main-image-statics) center/cover no-repeat;
   background-attachment: fixed;
